@@ -54,7 +54,7 @@ jQuery.noConflict();
     setDropDown();
     // Set input values when 'Save' button is clicked
     $form.on('submit', function(e) {
-      var config = [];
+      var config = {};
       var table_row = $table.val();
       var row_count = $number.val();
       e.preventDefault();
